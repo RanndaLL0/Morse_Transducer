@@ -1,15 +1,1 @@
-when ["/", actual_state], [" ", actual_state], ["_", actual_state]
-          generate_next_letter(actual_state)
-          if char == "_"
-            puts "Palavra válida"
-            puts @output
-            break
-          end
-          if char == "/"
-            @output += ' '
-          actual_state = "q0"
-          else
-            puts "Palavra inválida"
-          break
-        end
-      end
+
